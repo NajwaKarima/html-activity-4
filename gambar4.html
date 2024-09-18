@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Header</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .profile-header {
+            background: #ffffff;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .profile-image {
+            position: relative;
+            display: inline-block;
+        }
+
+        .profile-image img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #4caf50; /* Green border */
+        }
+
+        .profile-info {
+            margin-top: 10px;
+        }
+
+        .profile-info h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .profile-info .verified {
+            color: blue;
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .profile-details {
+            font-size: 14px;
+            color: #777;
+            margin-top: 5px;
+        }
+
+        .profile-details a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            padding: 0 20px;
+            border-bottom: 1px solid #eaeaea;
+            gap: 10px;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+
+        .nav-links a.active {
+            color: #4caf50;
+        }
+
+        .nav-links a:hover {
+            color: #4caf50;
+        }
+
+        .connect-btn, .connect-btn2 {
+            margin-left: 5px; /* Memberi jarak antara tombol dan nav-links */
+        }
+
+        .connect-btn2 img{
+            width: 18px;
+            height: 18px;
+        }
+
+        .connect-btn button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .connect-btn2 button{
+            padding: 5px 10px;
+            background-color: transparent;
+            border-radius: 5px;
+        }
+
+        .connect-btn button:hover, .connect-btn2 button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-header">
+        <div class="profile-image">
+            <img src="pp.png" alt="Jenny Klabber">
+        </div>
+        <div class="profile-info">
+            <h2>Jenny Klabber <span class="verified">✔</span></h2>
+            <div class="profile-details">
+                <span>KeenThemes</span> • <span>SF, Bay Area</span> • <a href="mailto:jenny@kteam.com">jenny@kteam.com</a>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#">Profiles</a>
+            <a href="#">Projects</a>
+            <a href="#" class="active">Works</a>
+            <a href="#">Teams</a>
+            <a href="#">Network</a>
+            <a href="#">Activity</a>
+            <a href="#">More</a>
+            
+            <!-- Tombol Connect dan Forum -->
+            <div class="connect-btn">
+                <button>Connect</button>
+            </div>
+            <div class="connect-btn2">
+                <button><img src="icon.png" alt=""></button>
+                <button><img src="icon.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

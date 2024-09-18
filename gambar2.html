@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index 2</title>
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  }
+
+  .container {
+    width: 770px;
+    height: 410px;
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+
+  .kiri img {
+    width: 360px;
+    height: 360px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .kanan {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured {
+    font-size: 16px;
+    color: gray;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+  }
+
+  .btn {
+    background-color: #e0f0ff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 100px;
+    }
+
+  .manager {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .manager img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  .informasi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  .tittle-manager {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .isi {
+    margin: 5px 0;
+  }
+
+  .p {
+    color: grey;
+    margin-bottom: 25px;
+    margin-top: -15px;
+  }
+
+  .info {
+    display: flex;
+  }
+
+  .info-item {
+    width: 100px;
+    margin-right: 100px;
+    padding: 5px 10px;
+    border: 2px dashed grey; 
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+
+  .info-item strong {
+    display: block;
+    font-size: 13px;
+  }
+  
+  .info-item span {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .view-project {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 160px;
+  }
+
+  .pp{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .pp img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-right: -15px;
+  }
+
+  .view-project:hover {
+    text-decoration: underline;
+  }
+
+</style>
+<body>
+  <div class="container">
+
+    <div class="kiri">
+      <img src="gambarutama.jpg" alt="Project Image">
+    </div>
+
+    <div class="kanan">
+      <span class="featured">Featured</span>
+    <div class="header">
+      <h1>9 Degree</h1>
+      <button class="btn">In Process</button>
+    </div>
+
+    <div class="manager">
+      <img src="pp.png">
+      <div class="informasi">
+        <span class="tittle-manager">Manager</span>
+        <span class="name">Robert Fox</span>
+      </div>
+      <img src="dollar.png" alt="Manager Image">
+      <div class="informasi">
+        <span class="tittle-manager">Budget</span>
+        <span class="name">$64.800</span>
+      </div>
+    </div>
+
+    <div class="isi">
+
+      <div class="p">
+      <p>Flat cartoony illustrations with vivid unblended <br>
+         colors and asymmetrical beautiful purple hair lady</p>
+         </div>
+
+      <div class="info">
+
+        <div class="info-item">
+          <strong>Feb 6, 2021</strong>
+          <span>Due Date</span>
+        </div>
+
+        <div class="info-item">
+          <strong>$284,900</strong>
+          <span>Budget</span>
+        </div>
+
+      </div>
+      <div class="pp">
+        <img src="ppcewe2.webp" alt="Manager Image">
+        <img src="ppcewe3.png" alt="Manager Image">
+        <img src="ppcewe4.avif" alt="Manager Image">
+        <a href="#" class="view-project">View Project</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
