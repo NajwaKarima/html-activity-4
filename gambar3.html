@@ -24,7 +24,8 @@
    .gambar img {
     width: 386px;
     height: 257px;
-    border-radius: 8px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -38,14 +39,16 @@
 
   .h1 {
     font-size: 12px;
-    margin-top: -15px;
+    margin-top: -10px;
     margin-left: 20px;
   }
 
   .item {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
+    margin-top: 10px;
   }
   
   .icon img{
@@ -59,36 +62,34 @@
   
   .info {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     font-size: 17px;
   }
 
   .like-coment {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .like img{
-    width: 17px;
-    margin-left: 20px;
-    background-color: white;
-    margin-right: 15px;
-  }
+.like-coment img{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
 
-  .coment img{
-    width: 17px;
-    margin-left: 20px;
-    background-color: white;
-    margin-right: 100px;
-  }
+.like {
+  margin-left: 7px;
+}
 
-  .agka {
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-  }
+.coment {
+  margin-left: 7px;
+  margin-right: 30px;
+}
 
+.profil{
+  display: flex;
+  align-items: center;
+}
 </style>
 <body>
     <div class="container">
@@ -103,30 +104,24 @@
     </div>
 
     <div class="item">
+       <div class="profil">
         <div class="icon">
           <img src="ppcewe.jpeg" alt="profil">
         </div>
         <div class="info">
           <span>Cody Fisher</span>
         </div>
-        <div class="like">
-            <img src="" alt="">
         </div>
         <div class="like-coment">
-        <div class="like">
             <img src="heart.png" alt="like">
+            <div class="like">
+            <a>24</a>
         </div>
-        <div class="angka">
-            <span>24</span>
-        </div>
-        <div class="coment">
-          <img src="heart.png" alt="coment">
-        </div>
-        <div class="angka">
-          <span>5</span>
+          <img src="ant-design_comment-outlined.png" alt="coment">
+          <div class="coment">
+          <a>5</a>
         </div>
         </div>
-      </div>
       </div>
       </div>
       </div>
