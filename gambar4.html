@@ -6,16 +6,6 @@
     <title>Document</title>
 </head>
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    }
-
-    body {
-        background-color: #f4f4f9;
-    }
 
     .container {
         width: 100%;
@@ -23,12 +13,126 @@
         margin: 50px auto;
         text-align: center;
     }
+
+    .pp-h1 {
+        background: #ffffff;
+        padding: 30px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .pp img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50px;
+        border: 3px solid #4caf50; 
+        margin-bottom: -10px;
+    }
+
+    .info-pp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .info-pp h1{
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info-pp img{
+        width: 17px;
+        height: 17px;
+        margin-top: 17px;
+        margin-left: 5px;
+    }
+
+    .isi {
+        font-size: 14px;
+        color: #777;
+        margin-top: 5px;
+    }
+
+    .isi a {
+        color: #4caf50;
+        text-decoration: none;
+    }
+
+    .pencetan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 20px;
+        border-bottom: 1px solid #eaeaea;
+        gap: 10px;
+    }
+
+    .pencetan a{
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .connect-btn {
+        background-color: #1974ec;
+        color: #eaeaea;
+        border: none;
+        border-radius: 2px;
+        font-size: 16px;
+        margin-left: 2px;
+    }
+
+    .connect-btn2 {
+        background-color: #f4f4f9;
+        color: #087cf8;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .connect-btn2 img{
+        width: 17px;
+        height: 17px;
+    }
 </style>
 <body>
     <div class="container">
-        <div class="profile-header">
-            <div class="profile-image">
-                <img src="ppcewe2.webp" alt="Jenny Klabber">
+
+        <div class="pp-h1">
+            <div class="pp">
+                <img src="woman.png" alt="Jenny Klabber">
             </div>
+            <div class="info-pp">
+                <h1>Jenny Klabber</h1>
+                <img src="tick-decagram.png">
+                </div>
+            <div class="isi">
+                <span>KeenThemes</span> . <span>SF, Bay Area</span> . <a href="mailto:jenny@kteam.com">jenny@kteam.com</a>
+            </div>
+            
+
+            <div class="pencetan">
+                <a href="#">Profiles</a>
+                <a href="#">Projects</a>
+                <a href="#">Works</a>
+                <a href="#">Teams</a>
+                <a href="#">Network</a>
+                <a href="#">Activity</a>
+                <a href="#">More</a>
+
+            <div class="connect-btn">
+                <button class="connect-btn">Connect</button>
+            </div>
+            <div class="connect-btn2">
+                <button><img src="ant-design_comment-outlined.png" alt=""></button>
+                <button><img src="ph_dots-three-bold.png" alt=""></button>
+
+        </div>
+      </div>
+    </div>
+    </div>
 </body>
 </html>
